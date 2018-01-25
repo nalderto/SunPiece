@@ -1,0 +1,57 @@
+{
+    "author": "Noah",
+    "dependencies": {},
+    "keywords": [],
+    "name": "sunpiece",
+    "pebble": {
+        "capabilities": [
+            "location"
+        ],
+        "displayName": "SunPiece",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "SUNSET",
+            "SUNRISE"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/Icon.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/OpenSans-24.ttf",
+                    "name": "FONT_OPEN_SANS_24",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "images/Line.png",
+                    "name": "IMAGE_LINE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/OpenSans-Bold.ttf",
+                    "name": "FONT_OPEN_SANS_BOLD_54",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "75f861b3-dce0-48e5-9b95-a90269bc71cf",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
